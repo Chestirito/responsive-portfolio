@@ -86,7 +86,8 @@ textarea.ftext{
     color: white;
 }
 .portfolio{
-    width: 30%;
+    width: 500px;
+    max-width: 30%;
     height: 200px;
     margin-left: 2%;
     margin-bottom: 30px;
@@ -126,6 +127,9 @@ body footer{
     .hcontainer{
         width: 100%;
     }
+    .portfolio{
+        max-width: 45%;
+    }
     
 }
 @media only screen and (max-width: 768px) {
@@ -158,12 +162,16 @@ body footer{
         float: none;
         display: inline;
     }
-    .contbody figure{
+    .contbody .profpic{
         float: none;
     }
-    .contbody figure img{
+    .contbody .profpic img{
         display: block;
         margin: 0 auto;
         margin-bottom: 10px;
+    }
+    .portfolio{
+        max-width: 100%;
+        height: 400px;
     }
 }
